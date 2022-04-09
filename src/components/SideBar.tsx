@@ -7,7 +7,7 @@ interface SideBarProps {
     title: string;
   }>;
   selectedGenreId: number;
-  buttonClickCallback: (args: any) => void;
+  buttonClickCallback: (id: number) => void;
 }
 
 export function SideBar({
